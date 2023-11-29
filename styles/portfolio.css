@@ -167,15 +167,13 @@
     padding: 10px 20px;
     margin: 0 auto;
   }
-  .btn-branding a:hover {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
-    transition: 0.7s;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin: 0 auto;
-  }
+ 
   
+  .btn-branding a :hover{
+    color: var(--primary-color);
+  box-shadow: 0 0 15px #086C74;
+  text-shadow: 0 0 15px #086C74;
+  }
   .btn-branding-outline {
     background: var(--accent-color);
     color: var(--primary-color);
